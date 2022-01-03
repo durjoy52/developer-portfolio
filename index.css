@@ -1,27 +1,29 @@
-* {
-  margin: 0;
-}
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
-
+section {
+  display: flex;
+  margin-bottom: 150px;
+}
 h1 {
   font-size: 50px;
 }
 .orange-color {
   color: orange;
 }
-.first-section {
-  display: flex;
+.first-banner {
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
 }
-.text {
-  width: 50%;
+p {
+  color: dimgray;
 }
 .half-width {
-  width: 50%;
-  padding: 5%;
+  float: left;
+  width: 40%;
+  padding-left: 2%;
+  margin-left: 5%;
 }
 .half-width img {
   width: 80%;
@@ -33,4 +35,9 @@ h1 {
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
+}
+.dream-section {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
